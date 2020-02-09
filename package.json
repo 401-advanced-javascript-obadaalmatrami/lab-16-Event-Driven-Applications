@@ -1,0 +1,30 @@
+{
+    "name": "lab-16-Event-Driven-Applications",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "test": "jest --verbose --coverage --watch-All",
+        "start": "nodemon app.js",
+        "lint": "eslint '**/*.js'"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/401-advanced-javascript-obadaalmatrami/lab-16-Event-Driven-Applications.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/401-advanced-javascript-obadaalmatrami/lab-16-Event-Driven-Applications/issues"
+    },
+    "homepage": "https://github.com/401-advanced-javascript-obadaalmatrami/lab-16-Event-Driven-Applications#readme",
+    "dependencies": {
+        "eslint": "^6.8.0",
+        "fs": "0.0.1-security",
+        "jest": "^25.1.0",
+        "jsdoc": "^3.6.3",
+        "nodemon": "^2.0.2",
+        "util": "^0.12.1"
+    }
+}
